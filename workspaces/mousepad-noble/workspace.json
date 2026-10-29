@@ -1,0 +1,19 @@
+{
+  "description": "A lightweight Notepad-style text editor using Mousepad on Ubuntu 24.04 Noble.",
+  "docker_registry": "https://ghcr.io/",
+  "image_src": "mousepad-noble.png",
+  "categories": [
+    "Productivity"
+  ],
+  "friendly_name": "Notepad",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.19.x",
+      "image": "ghcr.io/tltadmin/kasm-mousepad-noble:1.19.0",
+      "uncompressed_size_mb": 5000
+    }
+  ]
+}
