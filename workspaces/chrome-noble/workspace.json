@@ -1,0 +1,19 @@
+{
+  "description": "Google Chrome running on Ubuntu 24.04 Noble, built for Kasm Workspaces 1.19 with modern Mesa and VA-API support.",
+  "docker_registry": "https://ghcr.io/",
+  "image_src": "chrome-noble.png",
+  "categories": [
+    "Browser"
+  ],
+  "friendly_name": "Chrome Noble",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.19.x",
+      "image": "ghcr.io/tltadmin/kasm-chrome-noble:1.19.0",
+      "uncompressed_size_mb": 0
+    }
+  ]
+}
