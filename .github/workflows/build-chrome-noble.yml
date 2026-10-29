@@ -43,6 +43,8 @@ jobs:
           file: ./images/chrome-noble/Dockerfile
           platforms: linux/amd64
           push: true
+          provenance: false
+          sbom: false
           tags: |
             ghcr.io/tltadmin/kasm-chrome-noble:1.19.0
             ghcr.io/tltadmin/kasm-chrome-noble:latest
